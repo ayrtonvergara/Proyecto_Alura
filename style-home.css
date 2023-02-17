@@ -1,0 +1,102 @@
+body{
+     
+    background:cornflowerblue;
+    
+    
+}
+.titulo-principal{
+
+    padding-left: 30px;
+}
+
+#banner{
+
+    width: 100%;
+}
+
+.principal{
+
+    background: #ffffff;
+    padding: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+
+
+p{
+    text-align: center;
+    
+}
+
+
+
+em strong{
+    color: #ff0000;
+}
+
+#mision{
+
+    font-size: 20px;
+}
+
+
+nav{
+    position: absolute;
+    top: 25px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin:  150px ; /*con los 0 se alteran las 4 pocisones, arriba, abajo a la derecha y a la izquierda*/
+    
+}
+nav a{
+    text-transform: uppercase;
+    color:black;
+    font-weight: bold;/*negrita*/
+    font-size: 20px;
+    text-decoration: none;/* borrar lineas que vienen por defecto en los vinculos*/
+    
+}  
+nav a:hover{ /*es para mostrar el efecto del mouse en el producto(cambia de color)*/
+
+    color:#c78000;
+    text-decoration: underline; /*subrayado*/
+    
+}
+#banner{
+
+    padding-top: 30px;
+}
+
+.diferenciales{
+    background: #cccccc;
+    padding: 20px;
+
+}
+
+
+
+.items{
+
+    font-style: italic;
+}
+
+ul{
+
+  display: inline-block;  /* block: hace que el comportamiento del elemento sea como un bloque. 
+  inline: el elemento se renderizará en línea con otros elementos. 
+  inline-block: el elemento tendrá un comportamiento mezcla entre los dos anteriores, que ahora voy a describir.*/
+  vertical-align: top;
+  width: 20%;
+  margin-right: 20px;
+}
+
+.imagenDiferenciales{
+
+    width: 50%;
+}
+
